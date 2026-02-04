@@ -1,7 +1,7 @@
 package edu.sergioUriel.endes;
 
 /**
- * Clase que proporciona operaciones aritméticas básicas.
+ * Clase que la proporciona operaciones aritméticas básicas.
  */
 public class Calculadora {
 
