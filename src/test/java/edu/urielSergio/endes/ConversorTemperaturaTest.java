@@ -1,4 +1,4 @@
-package edu.sergioUriel.endes;
+package edu.urielSergio.endes;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
