@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/edu/urielSergio/endes/ValidadorPassword.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/edu/urielSergio/endes/ValidadorPassword.java" />
+              <option name="originalContent" value="package edu.sergioUriel.endes;&#10;&#10;import java.util.regex.Pattern;&#10;&#10;/**&#10; * Clase para validar contraseñas según reglas básicas de seguridad.&#10; */&#10;public class ValidadorPassword {&#10;&#10;    private static final Pattern PATRON_PASSWORD = Pattern.compile(&#10;            &quot;^(?=.*[A-Z])(?=.*\\d).{8,}$&quot;&#10;    );&#10;&#10;    /**&#10;     * Valida si una contraseña cumple las reglas:&#10;     * - Al menos 8 caracteres&#10;     * - Al menos una mayúscula&#10;     * - Al menos un número&#10;     * @param password contraseña a validar&#10;     * @return true si es válida, false en caso contrario&#10;     */&#10;    public boolean esPasswordValida(String password) {&#10;        if (password == null || password.trim().isEmpty()) {&#10;            return false;&#10;        }&#10;        return PATRON_PASSWORD.matcher(password).matches();&#10;    }&#10;}&#10;&#10;" />
+              <option name="updatedContent" value="package edu.urielSergio.endes;&#10;&#10;import java.util.regex.Pattern;&#10;&#10;/**&#10; * Clase para validar contraseñas según reglas básicas de seguridad.&#10; */&#10;public class ValidadorPassword {&#10;&#10;    private static final Pattern PATRON_PASSWORD = Pattern.compile(&#10;            &quot;^(?=.*[A-Z])(?=.*\\d).{8,}$&quot;&#10;    );&#10;&#10;    /**&#10;     * Valida si una contraseña cumple las reglas:&#10;     * - Al menos 8 caracteres&#10;     * - Al menos una mayúscula&#10;     * - Al menos un número&#10;     * @param password contraseña a validar&#10;     * @return true si es válida, false en caso contrario&#10;     */&#10;    public boolean esPasswordValida(String password) {&#10;        if (password == null || password.trim().isEmpty()) {&#10;            return false;&#10;        }&#10;        return PATRON_PASSWORD.matcher(password).matches();&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
