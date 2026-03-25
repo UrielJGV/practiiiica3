@@ -1,4 +1,4 @@
-package edu.sergioUriel.endes;
+package edu.urielSergio.endes;
 
 /**
  * Clase para convertir temperaturas entre Celsius y Fahrenheit.
@@ -23,4 +23,3 @@ public class ConversorTemperatura {
         return (fahrenheit - 32.0) * 5.0 / 9.0;
     }
 }
-

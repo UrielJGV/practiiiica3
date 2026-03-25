@@ -1,4 +1,4 @@
-package edu.sergioUriel.endes;
+package edu.urielSergio.endes;
 
 import java.util.regex.Pattern;
 
@@ -26,4 +26,3 @@ public class ValidadorPassword {
         return PATRON_PASSWORD.matcher(password).matches();
     }
 }
-

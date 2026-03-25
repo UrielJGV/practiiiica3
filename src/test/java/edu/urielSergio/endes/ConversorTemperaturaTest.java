@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class ConversorTemperaturaTest {
 
-    private final edu.sergioUriel.endes.ConversorTemperatura conversor = new edu.sergioUriel.endes.ConversorTemperatura();
+    private final edu.urielSergio.endes.ConversorTemperatura conversor = new edu.urielSergio.endes.ConversorTemperatura();
 
     @Test
     void testCelsiusAFahrenheit() {

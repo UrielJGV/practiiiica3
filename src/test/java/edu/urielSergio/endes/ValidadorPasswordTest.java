@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class ValidadorPasswordTest {
 
-    private final edu.sergioUriel.endes.ValidadorPassword validador = new edu.sergioUriel.endes.ValidadorPassword();
+    private final edu.urielSergio.endes.ValidadorPassword validador = new edu.urielSergio.endes.ValidadorPassword();
 
     @Test
     void testPasswordValida() {

@@ -1,4 +1,4 @@
-package edu.sergioUriel.endes;
+package edu.urielSergio.endes;
 
 /**
  * Clase que la proporciona operaciones aritméticas básicas.

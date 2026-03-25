@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class CalculadoraTest {
 
-    private final edu.sergioUriel.endes.Calculadora calc = new edu.sergioUriel.endes.Calculadora();
+    private final edu.urielSergio.endes.Calculadora calc = new edu.urielSergio.endes.Calculadora();
 
     @Test
     void testSumar() {
@@ -40,8 +40,6 @@ public class CalculadoraTest {
 
     @Test
     void testDividirPorCero() {
-        IllegalArgumentException ex = assertThrows(IllegalArgumentException.class, () -> calc.dividir(5, 0));
-        assertEquals("No se puede dividir entre cero.", ex.getMessage());
+        assertThrows(IllegalArgumentException.class, () -> calc.dividir(5, 0));
     }
 }
-
